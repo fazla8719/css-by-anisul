@@ -1,0 +1,28 @@
+.container{
+background: yellow;
+display: flex;
+/* justify-content: center; */
+/* justify-content: flex-end;*/
+/* justify-content: space-around; 4 pashei space rakhe */
+/* justify-content: space-between; content er majhe space banay */
+
+/* flex-wrap: wrap;
+flex-direction: row; 
+flex-direction: column-reverse;*/
+flex-flow: wrap row; /*flex wrap and flex direction eksathe lekhar way*/
+ /* height: 300px;
+justify-content: center;
+align-items: center;  item ke x o y okkho borabor center korar jonno ei 3 ta value ee set korte hobe*/
+height: 300px;
+justify-content: center;
+align-items: center;
+
+}
+.container > div{
+   
+    background: red;
+    height: 100px;
+
+   margin: 10px;
+   padding: 5px;
+}

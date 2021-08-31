@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+.section1{
+    float: left;
+    background-color: red;
+}
+.section2{
+    float: left;
+    background-color: green;
+}
+.section3{
+    clear: both; /* 2 tar majhe jaoa theke atkanor jonno*/
+    background-color: rgb(9, 0, 128);
+    color: white;
+}

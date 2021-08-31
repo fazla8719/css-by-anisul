@@ -1,0 +1,26 @@
+:root{
+    --primary-color:gray;
+    --secodary-color:purple;
+    --color:white;
+}
+.p1{
+    border: 2px solid red;
+     background-color: var(--primary-color,green); /*ekhane alada vabe green declare kora hoise karon zodi kono vabe toiri kora variable kaj na kore tahole option b hishebe green apply hobe */
+    color: var(--color,red);
+    padding: 5px;
+
+}
+.p2{
+    border: 2px solid rgb(0, 217, 255);
+    background-color: var(--secodary-color);
+    color: var(--color);
+    padding: 5px;
+
+}
+
+@media screen and (max-width:500px) {
+   :root{
+    --primary-color:red;
+     --secodary-color:green;
+}
+}
