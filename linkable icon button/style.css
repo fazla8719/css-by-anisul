@@ -1,0 +1,16 @@
+.social-media{
+    background-color: orchid;
+    padding: 50px 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.btn{
+    border: none;
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: gray;
+    font-size: 2.1rem;
+}
