@@ -1,0 +1,44 @@
+textarea{
+    resize: none;
+    width: 60%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+}
+textarea:hover{
+    opacity: 0.9;
+}
+
+input[type=button]{
+    margin-top: 10px;
+    border: none;
+    background-color: green;
+    color:white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    background-color: yellowgreen;
+}
+
+select{
+    border: none;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 30%;
+    transition: width 0.9s ease-in-out;
+
+}
+select:hover{
+    width: 50%;
+    
+}
+

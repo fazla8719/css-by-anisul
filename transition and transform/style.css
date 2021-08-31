@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    background-color: teal;
+    color: white;
+    max-width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+
+    transition: max-width 2s, transform 3s;
+
+
+    /*transition-property: max-width;
+    transition-duration: 2s;
+    transition-delay: 1s; /*mane transition kotokkhon por suru hobe*/
+   /* transition-timing-function:linear;*/
+
+
+   /* All in one 
+   transition: max-width 2s linear 1s ,height 4s ;*/
+   
+   /* ekadhik property effect korar khetre koma use korte hobe*/
+}
+.main:hover{
+   /* max-width: 500px;
+   height: 500px; */
+   max-width: 600px;
+   transform: rotate(360deg);
+
+
+}
+
+h1{
+    font-size: 3rem;
+ 
+    transition: font-size 3s ;
+}
+h1:hover{
+    font-size: 3.5rem;
+    
+}

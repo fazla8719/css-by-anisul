@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+ n: 3s;
+\ar;
+ t
+  = fire zaoar somoy slowly zabe 
+    linear: asha zaoar speed soman thake.*/
+    
+
+   
+}
+ /*img:hover{
+    animation-name: img-anim;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;animation zeno sesh na hoye zay tai eta use kora hoise }*/
+
+
+@keyframes img-anim{
+
+    /* from ebong to er moddhe 1 ta property ee kaj korbe */
+    /* from{
+        border-color: purple;
+        
+    }
+    to{
+      border-color: orange;
+    }*/
+
+    /* percentage akareo kora zay */
+
+    /* 0%{
+      border-color: red;
+        
+    }
+    25%{
+        border-color: teal; */
+
+    /* }
+    50%{
+        border-color: gray;
+
+    }
+    75%{
+        border-color: green;
+
+    } */
+
+    0%{
+        top: 0;
+        left: 0;
+    }
+    50%{
+        top: 100px;
+        left: 0;
+        opacity: 0.5;
+    }
+ 100%{
+     top: 0px;
+     left: 0px;
+ }
+}

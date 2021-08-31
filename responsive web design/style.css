@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+
+}
+
+/* responsive style ke apply korar system hosse 2 ta..
+1/ external css e(as usual)
+2/ link er vetore {media er vetore bole deya ze screen size koto hoile change apply  hobe} */
+
+
+/* min-width use korar khetre soto theke boro onujaee screen size set korte hobe...ar max-width er khetre boro theke soto akare screen size set korte hobe */
+/* @media screen and (max-width:800px) {
+    body{
+        background-color: gray;
+    }
+}
+@media screen and (max-width:700px) {
+    body{
+        background-color: teal;
+    }
+}
+
+@media screen and (max-width:500px) {
+    body{
+        background-color: orchid;
+    }
+    
+} */
+/* @media screen and (min-width:500px) {
+    body{
+        background-color: orchid;
+    }
+}
+@media screen and (min-width:700px) {
+    body{
+        background-color: brown;
+    }
+}
+@media screen and (min-width:800px) {
+    body{
+        background-color: purple;
+    }
+} */

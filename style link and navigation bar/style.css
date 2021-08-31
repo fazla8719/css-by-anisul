@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+#nav-bar{
+   width: 80%;
+   height: 80px;
+   background-color: gray;
+    margin: 0 auto; /*er fol e majhe coila gese*/
+}
+#nav-bar:hover{
+    background-color: purple;
+}
+#nav-bar ul{
+    list-style: none;
+}
+#nav-bar ul li{
+    margin: 20px;
+    font-size: 20px;
+    float: left;
+    
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: grab;
+    
+}
+#nav-bar ul li a:hover{
+  
+    text-decoration: underline;
+    color:yellow;
+
+}

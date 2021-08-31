@@ -1,0 +1,54 @@
+.my:hover{
+    color: green;
+    font-size: 20px;
+}
+input{
+    padding: 10px;
+    font-size: 15px;
+}
+input:focus{ 
+    /* click korar por effect bujha jay */
+    background-color: blueviolet;
+    color: white;
+}
+table{
+    margin-top: 10px;
+}
+ 
+table,td,tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+tr:nth-child(odd){
+    background-color: gray;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: purple;
+    color: white;
+}
+tr:hover{
+    background-color: tomato;
+}
+
+p::first-letter{
+    color: purple;
+    font-style: italic;
+    font-size: 30px;
+}
+p::first-line{
+    color: white;
+    background-color: gray;
+}
+p::after{
+    content: ">>>?";
+}
+p::before{
+    content: "?>>>>";
+}
+ 
+li:last-child{
+    background-color: gray;
+    color: white;
+}

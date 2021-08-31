@@ -1,0 +1,15 @@
+h1{
+    text-shadow:  5px -10px 5px red; /*horijontal(y-okkho) -vertical(x-okkho)-blur-color : minus use for upper shadow.*/
+}
+    div{
+        background-color: gray;
+        color: white;
+        width: 30%;
+        border: 2px solid purple;
+        padding: 5px;
+        box-sizing: border-box;
+        box-shadow: inset 15px -15px 10px orange; /*same like text shadow...normally off set= bahire shadow thake...kintu caile inset= vetore shadow diye kaj kora jay*/
+        position: relative;
+        top: 50px;
+
+    }

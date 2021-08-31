@@ -1,0 +1,16 @@
+#div1{
+    background-color: red;
+    width: 30%;
+    height: 300px;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    z-index: 1;
+}
+#div2{
+    background-color: green;
+    width: 30%;
+    height: 300px;
+    position: relative;
+    z-index: 2;/*  position na thakle z-index kaj korbe na  */
+}
