@@ -1,0 +1,36 @@
+ /*.course{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+ul{
+    list-style-type: square;
+     list-style-image: url(/check.png);flaticon.com is a great website for icon
+*/
+
+/* Font awesome use kore list style  */
+
+.course{
+    background-color: gray;
+   padding: 10px;
+   
+    
+}
+.course li{
+     color: white;
+    font-size: 20px;
+   
+}
+.course ul{
+    list-style: none;
+    
+}
+.course ul li::before{
+        content: '\f058'; /* slash ultata use korle effect porbe na*/
+        font-family: 'Font Awesome 5 Free';
+        color: teal;
+        font-size: 30px;
+        display: inline-block; /* display na set korle padding kaj korbe na*/
+       padding: 5px 5px;
+       font-weight: bold;
+}
